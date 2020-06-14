@@ -1,0 +1,142 @@
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 5px;
+}
+
+header div {
+    width: 49%;
+    display: inline-block;
+}
+
+.header-button {
+    height: 45px;
+    width: 45px;
+    border-radius: 30px;
+    border: none;
+    background-color: transparent;
+    color: transparent;
+    font-size: 20px;
+}
+
+.header-button:hover {
+    background-color: #E0E0E0;
+    cursor: pointer;
+}
+
+#menu-button {
+    background-image: url("img/menu.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#grid-button {
+    background-image: url("img/grid.png");
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#profile-button {
+    background-color: blueviolet;
+    color: white;
+}
+
+#profile-button:hover {
+    border: 1px solid #E0E0E0;
+}
+
+.text-right {
+    text-align: right;
+}
+
+#logo {
+    height: 40px;
+    position: absolute;
+    margin: 5px;
+}
+
+#container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 15px 2%;
+    margin: 0 auto;
+}
+
+#middle {
+   margin-bottom: 15px;
+}
+
+#middle button {
+    border-radius: 3px;
+    border: 1px solid #E0E0E0;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 550;
+    color: #1a73e8;
+    margin-right: 5px;
+    padding-left: 35px;
+    padding-right: 15px;
+    background-color: white;
+}
+
+#middle .active {
+    background-color: #e4ecfa;
+}
+
+#middle button:hover {
+    cursor: pointer;
+}
+
+#middle img {
+    position: absolute;
+    margin-left: -25px;
+    margin-top: -1px;
+}
+
+#box {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+}
+
+#languages {
+    border-bottom: 1px solid #E0E0E0;
+}
+
+#languages div {
+    width: 43%;
+    display: inline-block;
+}
+
+#languages-center {
+    width: 10% !important;
+    text-align: center;
+}
+
+#languages button {
+    border: none;
+    height: 30px;
+    background-color: white;
+    color: rgba(0,0,0,0.54);
+    height: 50px;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 0 10px;
+}
+
+.text-transparent {
+    color: transparent !important;
+}
