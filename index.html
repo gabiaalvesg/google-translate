@@ -3,6 +3,7 @@
     <head>
         <title>Google Translate</title>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -12,7 +13,7 @@
                 <img id="logo" src="img/logo.png" alt="">
             </div>
             <div class="text-right">
-                <button id="grid-button" class="header-button">.</button>
+                <button id="app-button" class="header-button">.</button>
                 <button id="profile-button" class="header-button">G</button>
             </div>
         </header>
@@ -32,33 +33,54 @@
                     <div id="languages">
                         <div>
                             <button>Detectar Idioma</button>
-                            <button>Inglês</button>
+                            <button class="active">Inglês</button>
                             <button>Português</button>
                             <button>Espanhol</button>
-                            <button class="text-transparent">.</button>
+                            <button class="text-transparent">
+                                <span class="more-button">.</span>
+                            </button>
                         </div>
                         <div id="languages-center">
-                            <button class="text-transparent">.</button>
+                            <button id="button-switch" class="text-transparent">
+                                <span>.</span>
+                            </button>
                         </div>
                         <div>
-                            <button>Português</button>
+                            <button class="active">Português</button>
                             <button>Inglês</button>
                             <button>Espanhol</button>
-                            <button class="text-transparent">.</button>
+                            <button class="text-transparent">
+                                <span class="more-button">.</span>
+                            </button>
                         </div>
                     </div>
-                    <div>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <div id="texts">
+                        <textarea id="texts-text-left" rows="4"></textarea>
+                        <textarea readonly id="texts-text-right" rows="4">Tradução</textarea>
                     </div>
                 </div>
             </section>
             <footer>
                 <nav>
                     <ul>
-                        <li><a href="">Histórico</a></li>
-                        <li><a href="">Salvas</a></li>
-                        <li><a href="">Comunidade</a></li>
+                        <li>
+                            <button>
+                                <span id="history-span">.</span>
+                                Histórico
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <span id="star-span">.</span>
+                                Salvas
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <span id="supervisor-span">.</span>
+                                Comunidade
+                            </button>
+                        </li>
                     </ul>
                 </nav>
             </footer>

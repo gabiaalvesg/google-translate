@@ -1,6 +1,7 @@
 * {
     outline: none;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body, html {
@@ -12,7 +13,7 @@ body, html {
 header {
     width: 100%;
     border-bottom: 1px solid #E0E0E0;
-    padding: 5px;
+    padding: 15px;
 }
 
 header div {
@@ -21,8 +22,8 @@ header div {
 }
 
 .header-button {
-    height: 45px;
-    width: 45px;
+    height: 35px;
+    width: 35px;
     border-radius: 30px;
     border: none;
     background-color: transparent;
@@ -37,14 +38,14 @@ header div {
 
 #menu-button {
     background-image: url("img/menu.png");
-    background-size: 30px;
+    background-size: 15px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-#grid-button {
-    background-image: url("img/grid.png");
-    background-size: 25px;
+#app-button {
+    background-image: url("img/app.png");
+    background-size: 15px;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -65,18 +66,17 @@ header div {
 #logo {
     height: 40px;
     position: absolute;
-    margin: 5px;
 }
 
 #container {
     width: 100%;
-    max-width: 1200px;
-    padding: 15px 2%;
+    max-width: 1366px;
+    padding: 20px 2%;
     margin: 0 auto;
 }
 
 #middle {
-   margin-bottom: 15px;
+   margin-bottom: 20px;
 }
 
 #middle button {
@@ -132,11 +132,105 @@ header div {
     background-color: white;
     color: rgba(0,0,0,0.54);
     height: 50px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 550;
     padding: 0 10px;
+    text-transform: uppercase;
+}
+
+#languages .active {
+    border-bottom: 3px solid #1a73e8;
+    color: #1a73e8;
+}
+
+#languages button:active {
+    background-color: #E0E0E0;
+}
+
+#button-switch {
+    border-radius: 30px;
+}
+
+#button-switch span {
+    background-image: url("img/icons.png");
+    background-repeat: no-repeat;
+    background-position-y: -52px;
+    background-position-x: center;
+    padding: 0 15px;
+}
+
+.more-button {
+    background-image: url("img/icons.png");
+    background-repeat: no-repeat;
+    background-position-y: -220px;
+    background-position-x: center;
+    padding: 0 15px;
 }
 
 .text-transparent {
     color: transparent !important;
+}
+
+#texts textarea {
+    width: 49%;
+    border: none;
+    padding: 25px;
+    font-size: 25px;
+    resize: none;
+}
+
+#texts-text-left {
+    border-right: 1px solid #E0E0E0 !important;
+}
+
+#texts-text-right {
+    color: #878787;
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer button {
+    border: none;
+    color: rgba(0,0,0,0.54);
+    background-color: transparent;
+    font-size: 14px;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+footer span {
+    border: 1px solid rgba(0,0,0,0.20);
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    margin: 10px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+}
+
+#history-span {
+    background-image: url("img/history.png");
+}
+
+#star-span {
+    background-image: url("img/star.png");
+}
+
+#supervisor-span {
+    background-image: url("img/supervisor.png");
 }
